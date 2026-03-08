@@ -1,128 +1,147 @@
 ---
-name: ux-storytelling
-description: Write compelling UX narratives for portfolio case studies, presentations, and research readouts. Use when structuring problem/solution stories, writing case study copy, preparing research presentations, or crafting impact statements. Activates for portfolio writing, case study copy, or any UX narrative task.
+name: design-system-discipline
+description: Enforce design system consistency, prevent refactors, manage CSS tokens and component patterns. Use when adding new UI sections, building components, reviewing existing code for drift, or planning design system documentation. Activates when building portfolio pages or any multi-section HTML/CSS project.
 ---
 
-# UX Storytelling Skill
+# Design System Discipline Skill
 
-Federico's voice is analytical and metrics-focused. The goal is to communicate the value of UX decisions to both design peers and business stakeholders — without falling into either "design-speak" or pure data dump.
+This skill prevents the #1 portfolio killer: **incremental drift** — where each new section introduces slightly different spacing, colors, or type scales that eventually require a full refactor.
 
-## Federico's Voice Profile
+## The Core Rule
 
-**Strong signals:**
-- Specific problem descriptions ("68% of users exited at step 3" not "users struggled")
-- Named methods ("Pendo path analysis", "unmoderated Maze test", "HEARTS framework")
-- Business context upfront ("This affected 40K monthly active users in Chile")
-- Honest reflection ("The initial assumption was wrong because...")
+**Before writing any new CSS: check what already exists.**
 
-**Avoid:**
-- "I leveraged synergies"
-- "I'm passionate about user-centered design"
-- "I wanted to improve the experience"
-- Vague before/after ("it was bad → now it's better")
-- Invented metrics — use `[PLACEHOLDER: metric name, source needed]` instead
+New code must use existing CSS variables. New variables may only be added if there is genuinely no existing token that serves the purpose — and even then, they must follow the naming convention.
 
-## The Core Narrative Arc
+## Federico's Portfolio Token Conventions
 
-Every case study and every section within a case study follows:
+When in doubt, check `style.css` or the root `:root {}` block first.
 
-```
-TENSION → INVESTIGATION → DECISION → OUTCOME
-```
+### Naming Pattern
+```css
+--[category]-[variant]-[modifier]
 
-Not: Problem → Solution → Result (too flat)
-But: What was at stake → What the data/research revealed → Why this specific decision → What actually happened
-
-## Story Structures by Use Case
-
-### Case Study Opening (Hook)
-```
-[Business or user stakes] + [Specific friction point] + [Scale/urgency]
-
-Example:
-"Chek's onboarding required users to complete identity verification 
-through a third-party WebView — a flow that contributed to [X%] drop-off 
-at the SERFINSA step. For a credit card product competing on activation 
-speed, this was a conversion problem with direct revenue impact."
+/* Examples */
+--color-primary
+--color-surface-glass
+--space-section
+--space-card-gap
+--type-size-body
+--type-weight-heading
+--radius-card
+--radius-pill
+--shadow-card
+--shadow-hero
+--motion-duration-default
+--motion-easing-default
 ```
 
-### Research Insight Statement
-```
-[Method] revealed that [specific finding], which challenged our assumption 
-that [prior belief]. This shifted our focus from [original approach] to [new direction].
+### Categories
+- `--color-*` — all colors, including backgrounds, borders, text
+- `--space-*` — spacing, gap, padding, margin values
+- `--type-*` — font-size, font-weight, line-height
+- `--radius-*` — border-radius values
+- `--shadow-*` — box-shadow values
+- `--motion-*` — transition durations and easings
+- `--z-*` — z-index layers
+
+## Before Adding Any New Section
+
+Run this mental checklist:
+
+1. **Color**: Does the color I need have a variable? → Use it. No? → Is it a variant of an existing one? → Add with systematic name. First use? → Define in `:root`.
+
+2. **Spacing**: Does `--space-section` or `--space-card-gap` already work? → Use it. Creating custom spacing? → Ask: will this need to be consistent anywhere else? If yes → tokenize.
+
+3. **Typography**: Is there already a class for this text style (`.section-title`, `.card-label`, `.body-text`)? → Use it. Don't create inline `font-size` or `font-weight` declarations.
+
+4. **Component pattern**: Does a similar component exist in the codebase? → Copy its structure, don't reinvent.
+
+## Anti-Patterns to Prevent
+
+```css
+/* ❌ NEVER — hardcoded values that can't be updated globally */
+padding: 48px;
+color: #1a1a2e;
+border-radius: 12px;
+font-size: 14px;
+font-weight: 300; /* thin typography — also an accessibility violation */
+
+/* ✅ ALWAYS — tokenized */
+padding: var(--space-section);
+color: var(--color-text-primary);
+border-radius: var(--radius-card);
+font-size: var(--type-size-small);
+font-weight: var(--type-weight-body); /* minimum 400 */
 ```
 
-### Design Decision Justification
-```
-We chose [solution] over [alternative] because [evidence]. 
-The tradeoff: [what we gave up]. The bet: [why it was worth it].
+## CSS Component Checklist (every new component)
+
+- [ ] Uses only existing CSS variables (or adds new ones to `:root`)
+- [ ] Has a clear, reusable class name (`.card`, `.section-hero`, `.tag-badge`)
+- [ ] Mobile-first: works at 320px without horizontal scroll
+- [ ] Focus states: `:focus-visible` styled on all interactive elements
+- [ ] Reduced motion: `@media (prefers-reduced-motion: reduce)` applied to all transitions/animations
+- [ ] Contrast: text on background passes WCAG AA (4.5:1 for body, 3:1 for large)
+- [ ] Font weight: nothing below 400
+- [ ] No inline styles
+
+## Glass/Card Pattern (established in portfolio)
+
+```css
+.card-glass {
+  background: var(--color-surface-glass);
+  backdrop-filter: blur(var(--blur-card));
+  border: 1px solid var(--color-border-glass);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
 ```
 
-### Impact Statement
-```
-[Metric] changed from [baseline] to [result] ([delta]) 
-over [timeframe], measured via [tool/method].
-[One sentence: why this matters for users or business.]
-```
+Always use this pattern for project cards. Don't create new background/blur combinations.
 
-### Reflection
-```
-If I ran this again, I'd [specific change] earlier because [what I learned].
-The constraint that shaped the most decisions was [constraint].
+## Carousel Pattern (established)
+
+```html
+<div class="project-card" data-carousel="path1.jpg,path2.jpg,path3.jpg">
+  <div class="card-tags-thematic">...</div>   <!-- ON image -->
+  <div class="card-tags-tools">...</div>      <!-- BELOW image -->
+</div>
 ```
 
-## Section Headers That Work
+- Hover → carousel (desktop)
+- Swipe → carousel (mobile)
+- Tags: thematic on image, tools below image, +N tooltip for overflow
 
-Instead of generic headers, use tension-forward titles:
+## When You MUST Refactor
 
-| Generic (avoid) | Tension-forward (use) |
+Refactor is justified only when:
+1. A token is used with 5+ different hardcoded overrides across files
+2. A component structure has forked into 3+ incompatible variants
+3. A new section can't be built without contradicting an existing pattern
+
+In these cases: refactor the token/component globally, don't add another variant.
+
+## Design System Documentation Format
+
+When documenting a component for the design system:
+
+```markdown
+## [ComponentName]
+
+**Class**: `.component-name`
+**Used in**: [list pages/sections]
+
+### Variants
+- `.component-name--large`
+- `.component-name--muted`
+
+### Tokens used
+- `--color-*`
+- `--space-*`
+
+### Do / Don't
+| Do | Don't |
 |---|---|
-| Research | What We Didn't Know |
-| Problem | The Drop-Off Nobody Owned |
-| Solution | Trading UX Friction for API Complexity |
-| Results | Measuring Whether It Worked |
-| Reflection | What the Data Didn't Tell Us |
-
-Federico can choose either style — but tension-forward headers make the page more scannable for recruiters skimming.
-
-## Framing for Different Audiences
-
-### For Design Reviewers
-Emphasize: process rigor, decision rationale, tradeoffs considered, methods used
-
-### For Product/Business Stakeholders
-Emphasize: user impact at scale, conversion/retention metrics, time/cost saved, business risk reduced
-
-### For Engineering Stakeholders
-Emphasize: implementation constraints respected, edge cases considered, handoff quality
-
-## Common UX Portfolio Weaknesses to Avoid
-
-1. **The hero narrative** — "I single-handedly redesigned X" → Always credit team, clarify your specific contribution
-2. **The NDA copout** — "I can't show details" without offering anything → Show process artifacts, anonymize data
-3. **The pretty portfolio** — Beautiful screens, no story → Recruiters read for decision-making, not aesthetics
-4. **The retrospective makeover** — Making past decisions sound more intentional than they were → Honest reflection builds more trust
-5. **The metric orphan** — One impressive number with no context → Always: baseline + result + timeframe + sample size + source
-
-## Copy Editing Checklist
-
-Before finalizing any case study copy:
-
-- [ ] Every metric has: value (or placeholder) + source + date range
-- [ ] Every design decision has a stated reason (not just description)
-- [ ] The reader understands what was at stake if the problem wasn't solved
-- [ ] Federico's specific role/contribution is clear (vs. team)
-- [ ] No thin adjectives: "simple", "intuitive", "seamless", "delightful"
-- [ ] Opening paragraph would make a recruiter want to keep reading
-
-## Length Guidelines by Section
-
-| Section | Target Length |
-|---|---|
-| Hero subtitle | 1 sentence, max 20 words |
-| Context | 2–3 sentences |
-| Problem | 1 paragraph (4–6 sentences) |
-| Process | 2–4 paragraphs or structured list |
-| Solution | 1–2 paragraphs + visual |
-| Impact | 3–5 metrics with context |
-| Reflection | 2–3 honest sentences |
+| Use for X | Use for Y |
+```
