@@ -25,7 +25,7 @@ Last updated: 2026-08-22
 | HEARTS Framework | **Done** | High | [→](analytics/hearts-framework.md) |
 | Pendo Patterns | **Done** | High | [→](analytics/pendo-patterns.md) |
 | Event Taxonomy & Instrumentation | **Done** | High | [→](analytics/event-taxonomy.md) |
-| Mixpanel / Hotjar Patterns | Planned | Medium | — |
+| Mixpanel / Hotjar Patterns | **Done** | Medium | [→](analytics/mixpanel-hotjar.md) |
 
 ## Product Testing
 
@@ -41,6 +41,8 @@ Last updated: 2026-08-22
 |-------|--------|----------|------|
 | Agentic Design | **Done** | High | [→](emerging/agentic-design.md) |
 | Measuring Agentic Experiences | **Done** | High | [→](emerging/measuring-agentic-experiences.md) |
+| Token Efficiency & Cost Control | **Done** | High | [→](emerging/token-efficiency.md) |
+| Remote / Dispatch / VMs | **Done** | High | [→](emerging/remote-dispatch-vms.md) |
 | Monthly Technology Scan | Planned | Medium | — |
 
 ## Design Systems & Interaction
