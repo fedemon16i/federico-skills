@@ -10,7 +10,7 @@ Federico already has deep practical experience with Pendo. This section focuses 
 |----------|--------|
 | [HEARTS Framework](hearts-framework.md) | **Done** |
 | [Pendo Patterns](pendo-patterns.md) | **Done** |
-| Event Taxonomy & Instrumentation | Planned |
+| [Event Taxonomy & Instrumentation](event-taxonomy.md) | **Done** |
 | Mixpanel / Hotjar Patterns | Planned |
 
 ---
