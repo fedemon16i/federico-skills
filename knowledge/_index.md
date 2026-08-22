@@ -15,7 +15,7 @@ Last updated: 2026-08-22
 | Rapid Validation (1-7 days) | **Done** | High | [→](research-methods/rapid-validation.md) |
 | Usability Testing | **Done** | High | [→](research-methods/usability-testing.md) |
 | Stakeholder & User Interviews | **Done** | High | [→](research-methods/interviews.md) |
-| Contextual Inquiry | Planned | Medium | — |
+| Contextual Inquiry | **Done** | Medium | [→](research-methods/contextual-inquiry.md) |
 | Survey & Unmoderated Methods | Planned | Medium | — |
 
 ## Analytics
@@ -31,15 +31,15 @@ Last updated: 2026-08-22
 
 | Topic | Status | Priority | File |
 |-------|--------|----------|------|
-| Validation in 1 day | Planned | High | — |
-| Validation in 2-3 days | Planned | High | — |
-| Validation in 1 week | Planned | Medium | — |
+| 1-Day Validation Pack | **Done** | High | [→](product-testing/1-day-validation.md) |
+| 2-3 Day Validation Pack | Planned | High | — |
+| 1-Week Validation Pack | Planned | Medium | — |
 
 ## Design Systems & Interaction
 
 | Topic | Status | Priority | File |
 |-------|--------|----------|------|
-| Design System Discipline | Existing (to migrate) | Medium | — |
+| Design System Discipline | Existing (root – to migrate) | Medium | — |
 | Motion & Micro-interactions | Planned | Medium | — |
 
 ---
