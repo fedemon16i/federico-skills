@@ -8,23 +8,27 @@ These are different from `/knowledge`:
 
 ---
 
-## Active Skills (to be migrated / refined)
+## Migrated / Active Skills
 
 | Skill | Status | Notes |
 |-------|--------|-------|
-| Behavioral Analytics | Keep – high value | Overlaps with knowledge/analytics but more operational |
-| Design System Discipline | Keep – high value | Critical for portfolio consistency |
-| UX Case Study | Keep – high value | Portfolio writing & structure |
-| Mobile-First Resilience | Review | Check relevance |
-| GitHub Workflow | Review | May still be useful |
-| Accessibility Standards | Review | Check if still current |
-| UX Storytelling | Review | |
+| [Design System Discipline](design-system-discipline.md) | **Migrated** | Critical for portfolio consistency |
+
+## Still in root (pending migration or review)
+
+| Skill | Verdict |
+|-------|--------|
+| behavioral-analytics.md | Keep – high value, more operational than pure knowledge |
+| ux-case-study.md | Keep – useful for portfolio |
+| mobile-first-resilience.md | Review |
+| github-workflow.md | Review |
+| Accessibility-Standards.md | Review |
+| ux-storytelling.md | Review |
 
 ---
 
 ## Migration plan
 
-1. Review each root-level skill
-2. Move useful ones into `/skills/` with clean structure
-3. Delete or archive the ones that no longer serve
-4. Keep skills focused on *execution*, knowledge focused on *understanding*
+1. Move useful skills into `/skills/` with clean structure ✅ (started)
+2. Keep skills focused on *execution*
+3. Archive or delete the ones that no longer serve
