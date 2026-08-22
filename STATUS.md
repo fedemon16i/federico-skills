@@ -1,14 +1,14 @@
 # Current Status — Federico Skills (Knowledge Center)
 
 **Última actualización:** 2026-08-22
-**Fase actual:** Core + Emerging + Skills organization
+**Fase actual:** Core + Emerging + Skills migration started
 
 ## Estado general
-- Knowledge Center con base sólida.
-- Sección Emerging / Agentic Design iniciada.
-- Carpeta `/skills` creada para organizar los skills antiguos.
+- Knowledge Center con base sólida y creciente.
+- Research Methods, Analytics, Product Testing y Emerging ya tienen contenido usable.
+- Migración de skills antiguos iniciada.
 
-## Contenido listo
+## Contenido listo (resumen)
 
 ### Research Methods
 - Rapid Validation · Usability Testing · Interviews · Contextual Inquiry
@@ -17,26 +17,26 @@
 - HEARTS · Pendo Patterns · Event Taxonomy
 
 ### Product Testing
-- 1-Day Validation Pack
+- 1-Day Validation Pack · 2-3 Day Validation Pack
 
-### Emerging
-- Agentic Design (primer documento)
+### Emerging & Agentic
+- Agentic Design · Measuring Agentic Experiences
 
 ### Skills
-- Index creado. Skills antiguos todavía en raíz (migración en curso).
+- Design System Discipline (migrado a `/skills`)
+- Otros skills antiguos todavía en raíz (pendientes de migración/revisión)
 
-## Revisión de skills antiguos
-- **behavioral-analytics.md** → Sigue siendo valioso (más operacional que el knowledge). Mantener y migrar.
-- **design-system-discipline.md** → Muy valioso para el portfolio. Mantener y migrar a `/skills`.
-- **ux-case-study.md** → Útil para portfolio. Mantener.
-- Resto → Revisar uno por uno (mobile-first, github-workflow, accessibility, storytelling).
+## Próximos pasos naturales
+1. Terminar migración de skills útiles (behavioral-analytics, ux-case-study, etc.)
+2. Mixpanel / Hotjar Patterns
+3. 1-Week Validation Pack (cuando haga falta)
+4. Ritual mensual de revisión de tecnologías más concreto
 
-## Próximos pasos
-1. Terminar migración de skills útiles a `/skills`
-2. 2-3 Day Validation Pack
-3. Measuring Agentic Experiences
-4. Monthly review ritual más concreto
+## Alineación con ai-capability-os
+- Este repo = Knowledge Center (dominio)
+- `ai-capability-os` = Capabilities de ejecución + orquestación
+- Claude Code ya tiene Session Replay, UI Integrity Guardian, User Story → Spec y arquitectura supervisada
+- Pendiente del lado de Claude: formalizar Agentic Design + medición agentic + ajuste de clasificación de Pendo
 
-## Notas para Claude Code
-- La sección **Agentic Design** y la necesidad de medir experiencias agentic deberían reflejarse también en `ai-capability-os` (posible nueva capability o extensión de Agent Orchestration).
-- El UI Integrity Guardian y Session Replay siguen siendo prioritarios del lado de capabilities.
+## Blockers
+- Ninguno
