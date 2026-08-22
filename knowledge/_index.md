@@ -12,8 +12,8 @@ Last updated: 2026-08-22
 
 | Topic | Status | Priority | File |
 |-------|--------|----------|------|
+| Rapid Validation (1-7 days) | **Done** | High | [→](research-methods/rapid-validation.md) |
 | Usability Testing | Planned | High | — |
-| Rapid Validation (1-7 days) | Planned | High | — |
 | Stakeholder & User Interviews | Planned | High | — |
 | Contextual Inquiry | Planned | Medium | — |
 | Survey & Unmoderated Methods | Planned | Medium | — |
