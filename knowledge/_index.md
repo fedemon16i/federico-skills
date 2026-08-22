@@ -35,11 +35,19 @@ Last updated: 2026-08-22
 | 2-3 Day Validation Pack | Planned | High | — |
 | 1-Week Validation Pack | Planned | Medium | — |
 
+## Emerging & Agentic
+
+| Topic | Status | Priority | File |
+|-------|--------|----------|------|
+| Agentic Design | **Done** | High | [→](emerging/agentic-design.md) |
+| Measuring Agentic Experiences | Planned | High | — |
+| Monthly Technology Scan | Planned | Medium | — |
+
 ## Design Systems & Interaction
 
 | Topic | Status | Priority | File |
 |-------|--------|----------|------|
-| Design System Discipline | Existing (root – to migrate) | Medium | — |
+| Design System Discipline | Existing (to migrate to skills) | Medium | — |
 | Motion & Micro-interactions | Planned | Medium | — |
 
 ---
