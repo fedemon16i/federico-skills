@@ -8,8 +8,8 @@ Federico already has deep practical experience with Pendo. This section focuses 
 
 | Document | Status |
 |----------|--------|
-| HEARTS Framework | Planned |
-| Pendo Patterns | Planned |
+| [HEARTS Framework](hearts-framework.md) | **Done** |
+| [Pendo Patterns](pendo-patterns.md) | **Done** |
 | Event Taxonomy & Instrumentation | Planned |
 | Mixpanel / Hotjar Patterns | Planned |
 
