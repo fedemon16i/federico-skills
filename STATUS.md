@@ -1,42 +1,42 @@
 # Current Status — Federico Skills (Knowledge Center)
 
 **Última actualización:** 2026-08-22
-**Fase actual:** Core + Emerging + Skills migration started
+**Fase actual:** Core solid + Emerging expanded + Skills migration ongoing
 
 ## Estado general
-- Knowledge Center con base sólida y creciente.
-- Research Methods, Analytics, Product Testing y Emerging ya tienen contenido usable.
-- Migración de skills antiguos iniciada.
+- Knowledge Center con base sólida y áreas emergentes importantes ya documentadas.
+- Token efficiency + Remote/Dispatch/VMs agregados.
+- Skills de alto valor empezando a migrarse a `/skills`.
 
-## Contenido listo (resumen)
+## Contenido listo (resumen fuerte)
 
 ### Research Methods
-- Rapid Validation · Usability Testing · Interviews · Contextual Inquiry
+Rapid Validation · Usability Testing · Interviews · Contextual Inquiry
 
 ### Analytics
-- HEARTS · Pendo Patterns · Event Taxonomy
+HEARTS · Pendo Patterns · Event Taxonomy · Mixpanel/Hotjar
 
 ### Product Testing
-- 1-Day Validation Pack · 2-3 Day Validation Pack
+1-Day Pack · 2-3 Day Pack
 
 ### Emerging & Agentic
-- Agentic Design · Measuring Agentic Experiences
+Agentic Design · Measuring Agentic Experiences · **Token Efficiency** · **Remote/Dispatch/VMs**
 
-### Skills
-- Design System Discipline (migrado a `/skills`)
-- Otros skills antiguos todavía en raíz (pendientes de migración/revisión)
+### Skills migrados
+- Design System Discipline
+- Behavioral Analytics
 
-## Próximos pasos naturales
-1. Terminar migración de skills útiles (behavioral-analytics, ux-case-study, etc.)
-2. Mixpanel / Hotjar Patterns
-3. 1-Week Validation Pack (cuando haga falta)
-4. Ritual mensual de revisión de tecnologías más concreto
+## Próximos pasos
+1. Migrar ux-case-study y revisar el resto de skills de la raíz
+2. 1-Week Validation Pack (cuando haga falta)
+3. Ritual mensual de tecnologías más concreto
 
-## Alineación con ai-capability-os
-- Este repo = Knowledge Center (dominio)
-- `ai-capability-os` = Capabilities de ejecución + orquestación
-- Claude Code ya tiene Session Replay, UI Integrity Guardian, User Story → Spec y arquitectura supervisada
-- Pendiente del lado de Claude: formalizar Agentic Design + medición agentic + ajuste de clasificación de Pendo
+## Para Claude Code
+Hay un prompt listo en el proyecto Grok (`prompt-claude-code-token-remote-agentic.md`) que pide formalizar en `ai-capability-os`:
+- Token metering / efficiency
+- Remote / Dispatch / VMs
+- Agentic Design + medición
+- Ajuste de Pendo + alineación de repos
 
 ## Blockers
 - Ninguno
