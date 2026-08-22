@@ -14,7 +14,7 @@ Last updated: 2026-08-22
 |-------|--------|----------|------|
 | Rapid Validation (1-7 days) | **Done** | High | [→](research-methods/rapid-validation.md) |
 | Usability Testing | **Done** | High | [→](research-methods/usability-testing.md) |
-| Stakeholder & User Interviews | Planned | High | — |
+| Stakeholder & User Interviews | **Done** | High | [→](research-methods/interviews.md) |
 | Contextual Inquiry | Planned | Medium | — |
 | Survey & Unmoderated Methods | Planned | Medium | — |
 
@@ -24,8 +24,8 @@ Last updated: 2026-08-22
 |-------|--------|----------|------|
 | HEARTS Framework | **Done** | High | [→](analytics/hearts-framework.md) |
 | Pendo Patterns | **Done** | High | [→](analytics/pendo-patterns.md) |
+| Event Taxonomy & Instrumentation | **Done** | High | [→](analytics/event-taxonomy.md) |
 | Mixpanel / Hotjar Patterns | Planned | Medium | — |
-| Event Taxonomy & Instrumentation | Planned | High | — |
 
 ## Product Testing
 
