@@ -44,6 +44,12 @@ Last updated: 2026-08-22
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
 | Motion & Micro-interactions | Planned | Medium | — |
 
+## Portfolio & Interview Narrative
+
+| Topic | Status | Priority | File |
+|-------|--------|----------|------|
+| Ownership, Outcomes & Confidential Work | **Done** | High | [→](portfolio-narrative/ownership-and-outcomes.md) |
+
 ## Emerging & Agentic
 
 | Topic | Status | Priority | File |
