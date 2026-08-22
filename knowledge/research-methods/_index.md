@@ -8,8 +8,8 @@ Focus: methods that work under time pressure (1 day → 1 week) and that Federic
 
 | Document | Status |
 |----------|--------|
+| [Rapid Validation](rapid-validation.md) | **Done** |
 | Usability Testing | Planned |
-| Rapid Validation | Planned |
 | Interviews (User + Stakeholder) | Planned |
 | Contextual Inquiry | Planned |
 
