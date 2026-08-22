@@ -10,7 +10,7 @@ Focus: methods that work under time pressure (1 day → 1 week) and that Federic
 |----------|--------|
 | [Rapid Validation](rapid-validation.md) | **Done** |
 | [Usability Testing](usability-testing.md) | **Done** |
-| Interviews (User + Stakeholder) | Planned |
+| [Interviews (User + Stakeholder)](interviews.md) | **Done** |
 | Contextual Inquiry | Planned |
 
 ---
