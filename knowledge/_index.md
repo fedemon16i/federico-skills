@@ -42,6 +42,7 @@ Last updated: 2026-08-22
 | Working Inside Existing DS & Design Team | **Done** | High | [→](design-systems/working-inside-existing-ds.md) |
 | Dense Data → Mobile (tables, dashboards) | **Done** | High | [→](ui-patterns/dense-data-to-mobile.md) |
 | Modernize Experience vs Skin | **Done** | High | [→](ui-patterns/modernize-experience-vs-skin.md) |
+| Complex Navigation Alternatives | **Done** | High | [→](ui-patterns/complex-navigation-alternatives.md) |
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
 | Motion & Micro-interactions | Planned | Medium | — |
 
