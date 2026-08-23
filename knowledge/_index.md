@@ -40,11 +40,14 @@ Last updated: 2026-08-22
 | Topic | Status | Priority | File |
 |-------|--------|----------|------|
 | Working Inside Existing DS & Design Team | **Done** | High | [→](design-systems/working-inside-existing-ds.md) |
-| Dense Data → Mobile (tables, dashboards) | **Done** | High | [→](ui-patterns/dense-data-to-mobile.md) |
+| Dense Data → Mobile | **Done** | High | [→](ui-patterns/dense-data-to-mobile.md) |
 | Modernize Experience vs Skin | **Done** | High | [→](ui-patterns/modernize-experience-vs-skin.md) |
 | Complex Navigation Alternatives | **Done** | High | [→](ui-patterns/complex-navigation-alternatives.md) |
+| Anti-Slop Skills & Motion Tools | **Done** | High | [→](ui-patterns/anti-slop-and-motion-tools.md) |
+| Data Tables, Users, Roles & RBAC | **Done** | High | [→](ui-patterns/data-tables-and-rbac.md) |
+| Domain Mobile & Ecommerce | **Done** | High | [→](ui-patterns/domain-mobile-and-commerce.md) |
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
-| Motion & Micro-interactions | Planned | Medium | — |
+| Motion & Micro-interactions | Planned | Low | (partially covered in anti-slop-and-motion-tools) |
 
 ## Portfolio & Interview Narrative
 
