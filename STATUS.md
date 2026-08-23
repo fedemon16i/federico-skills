@@ -1,7 +1,7 @@
 # Current Status — Federico Skills (Knowledge Center)
 
-**Última actualización:** 2026-08-22  
-**Fase actual:** Core solid + Emerging expanded + Skills migration ongoing
+**Última actualización:** 2026-08-23  
+**Fase actual:** Core solid · UI patterns expanded · Portfolio OS knowledge linked
 
 > **Entrada de sistema:** antes de trabajar en el stack completo, leer  
 > [`ai-capability-os/CONTEXT-BRIEF.md`](https://github.com/fedemon16i/ai-capability-os/blob/main/CONTEXT-BRIEF.md)  
@@ -10,37 +10,36 @@
 ---
 
 ## Estado general
-- Knowledge Center con base sólida y áreas emergentes documentadas.
-- Token efficiency + Remote/Dispatch/VMs agregados.
-- Skills de alto valor migrándose a `/skills`.
+- Knowledge Center usable en trabajo de producto y en portfolio (Chat A/B).
+- Nuevos: complex forms/drop-offs, onboarding/activation, 1-week validation, portfolio OS shell patterns.
+- Ritual mensual documentado (`emerging/monthly-audit-ritual.md`).
 
-## Contenido listo
+## Contenido listo (alto nivel)
 
-### Research Methods
-Rapid Validation · Usability Testing · Interviews · Contextual Inquiry
+### Research + testing
+Rapid · Usability · Interviews · Contextual · Surveys · 1d / 2–3d / **1-week** packs
 
 ### Analytics
-HEARTS · Pendo Patterns · Event Taxonomy · Mixpanel/Hotjar
+HEARTS · Pendo · Event taxonomy · Mixpanel/Hotjar
 
-### Product Testing
-1-Day Pack · 2-3 Day Pack
+### UI / product patterns
+Existing DS · Dense mobile · Modernize vs skin · Nav · **Forms/drop-offs** · **Onboarding** · Tables/RBAC · Domain mobile/ecom · Anti-slop · Reference products · **Portfolio OS shell**
 
-### Emerging & Agentic
-Agentic Design · Measuring Agentic Experiences · Token Efficiency · Remote/Dispatch/VMs
+### Portfolio narrative
+Ownership · Case structure · NDA · Verbal interview
 
-### Skills migrados
-- Design System Discipline
-- Behavioral Analytics
+### Emerging
+Agentic · Measuring agentic · Tokens · Remote/VMs · Monthly audit
 
-## Próximos pasos (este repo)
-1. Migrar ux-case-study y revisar skills restantes en la raíz
-2. 1-Week Validation Pack (cuando haga falta)
-3. Ritual mensual de tecnologías más concreto
+## Próximos (bajo demanda)
+1. Motion & micro-interactions (si hace falta más allá de anti-slop)
+2. Migrar skills sueltos en raíz del repo
+3. Ejecutar monthly audit en el día fijado
 
-## Coordinación con ai-capability-os
-- Este repo = conocimiento de dominio
-- `ai-capability-os` = capabilities de ejecución + coordination entre LLMs
-- Canal de mensajes entre agentes: `ai-capability-os/coordination/`
+## Coordinación
+- Este repo = dominio  
+- `ai-capability-os` = ejecución + coordination  
+- Portfolio ejecución = `PORTFOLIO-NEW-INSTRUCTIONS.md` en federico-portfolio
 
 ## Blockers
-- Ninguno en este repo
+Ninguno
