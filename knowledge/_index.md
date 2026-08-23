@@ -41,6 +41,7 @@ Last updated: 2026-08-22
 |-------|--------|----------|------|
 | Working Inside Existing DS & Design Team | **Done** | High | [→](design-systems/working-inside-existing-ds.md) |
 | Dense Data → Mobile (tables, dashboards) | **Done** | High | [→](ui-patterns/dense-data-to-mobile.md) |
+| Modernize Experience vs Skin | **Done** | High | [→](ui-patterns/modernize-experience-vs-skin.md) |
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
 | Motion & Micro-interactions | Planned | Medium | — |
 
@@ -49,6 +50,9 @@ Last updated: 2026-08-22
 | Topic | Status | Priority | File |
 |-------|--------|----------|------|
 | Ownership, Outcomes & Confidential Work | **Done** | High | [→](portfolio-narrative/ownership-and-outcomes.md) |
+| Case Study Structure 2026 | **Done** | High | [→](portfolio-narrative/case-study-structure-2026.md) |
+| Confidential & NDA Cases | **Done** | High | [→](portfolio-narrative/confidential-and-nda-cases.md) |
+| Interview Project Narrative (Verbal) | **Done** | High | [→](portfolio-narrative/interview-project-narrative.md) |
 
 ## Emerging & Agentic
 
