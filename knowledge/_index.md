@@ -4,7 +4,7 @@ Master registry of curated domain knowledge.
 
 **Update this file whenever knowledge is added, updated, or reclassified.**
 
-Last updated: 2026-08-22
+Last updated: 2026-08-23
 
 ---
 
@@ -33,7 +33,7 @@ Last updated: 2026-08-22
 |-------|--------|----------|------|
 | 1-Day Validation Pack | **Done** | High | [→](product-testing/1-day-validation.md) |
 | 2-3 Day Validation Pack | **Done** | High | [→](product-testing/2-3-day-validation.md) |
-| 1-Week Validation Pack | Planned | Medium | — |
+| 1-Week Validation Pack | **Done** | Medium | [→](product-testing/1-week-validation.md) |
 
 ## Design Systems & UI Patterns
 
@@ -43,10 +43,13 @@ Last updated: 2026-08-22
 | Dense Data → Mobile | **Done** | High | [→](ui-patterns/dense-data-to-mobile.md) |
 | Modernize Experience vs Skin | **Done** | High | [→](ui-patterns/modernize-experience-vs-skin.md) |
 | Complex Navigation Alternatives | **Done** | High | [→](ui-patterns/complex-navigation-alternatives.md) |
+| Complex Forms & Drop-offs | **Done** | High | [→](ui-patterns/complex-forms-and-dropoffs.md) |
+| Onboarding & Activation | **Done** | High | [→](ui-patterns/onboarding-and-activation.md) |
 | Anti-Slop Skills & Motion Tools | **Done** | High | [→](ui-patterns/anti-slop-and-motion-tools.md) |
 | Data Tables, Users, Roles & RBAC | **Done** | High | [→](ui-patterns/data-tables-and-rbac.md) |
 | Domain Mobile & Ecommerce | **Done** | High | [→](ui-patterns/domain-mobile-and-commerce.md) |
 | Reference Products Best-in-Class | **Done** | High | [→](ui-patterns/reference-products-best-in-class.md) |
+| Portfolio OS Shell Patterns | **Done** | High | [→](ui-patterns/portfolio-os-shell-patterns.md) |
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
 | Motion & Micro-interactions | Planned | Low | (see anti-slop-and-motion-tools) |
 
