@@ -67,7 +67,7 @@ Last updated: 2026-08-22
 | Measuring Agentic Experiences | **Done** | High | [→](emerging/measuring-agentic-experiences.md) |
 | Token Efficiency & Cost Control | **Done** | High | [→](emerging/token-efficiency.md) |
 | Remote / Dispatch / VMs | **Done** | High | [→](emerging/remote-dispatch-vms.md) |
-| Monthly Technology Scan | Planned | Medium | — |
+| Monthly Audit Ritual | **Done** | High | [→](emerging/monthly-audit-ritual.md) |
 
 ---
 
