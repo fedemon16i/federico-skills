@@ -46,8 +46,9 @@ Last updated: 2026-08-22
 | Anti-Slop Skills & Motion Tools | **Done** | High | [→](ui-patterns/anti-slop-and-motion-tools.md) |
 | Data Tables, Users, Roles & RBAC | **Done** | High | [→](ui-patterns/data-tables-and-rbac.md) |
 | Domain Mobile & Ecommerce | **Done** | High | [→](ui-patterns/domain-mobile-and-commerce.md) |
+| Reference Products Best-in-Class | **Done** | High | [→](ui-patterns/reference-products-best-in-class.md) |
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
-| Motion & Micro-interactions | Planned | Low | (partially covered in anti-slop-and-motion-tools) |
+| Motion & Micro-interactions | Planned | Low | (see anti-slop-and-motion-tools) |
 
 ## Portfolio & Interview Narrative
 
