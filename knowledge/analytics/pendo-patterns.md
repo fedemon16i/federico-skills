@@ -73,8 +73,36 @@ Avoid vague statements such as “engagement improved”.
 
 ---
 
+---
+
+## Pendo como plataforma AI-native (2026)
+
+Pendo está pivotando hacia ser infraestructura de datos para agentes AI. Dos productos clave:
+
+### Agent Analytics
+Mide agentes AI dentro del producto — conversaciones, insights, adoption de features agentic. Relevante cuando Federico diseñe o audite experiencias agentic.
+
+### Novus (product agent de Pendo)
+Pipeline: **behavioral data + session replays → LLM → code fix automático.**
+
+- Detecta issues de usabilidad en producción (ej: drop en funnel)
+- Session replay → root cause (rage clicks, etc.)
+- Correlaciona con archivos de código específicos
+- Genera PR con fix sugerido
+- **90%+ success rate** en evals PM-reviewed
+- Stack: Claude Agent SDK + LangSmith (observabilidad)
+
+**Hallazgo clave de producción:** el agente tendía a usar analytics OR código, raramente ambos. LangSmith traces lo detectaron → fix de prompts. La potencia está en combinar las dos fuentes.
+
+**Resultados:** 25% menos tiempo en identificar use cases; 60% de problemas AI detectados por traces antes que por clientes.
+
+Fuente completa: `ai-capability-os/sources/pendo/novus-langsmith.md`
+
+---
+
 ## Related
 
 - [HEARTS Framework](hearts-framework.md)
 - Event Taxonomy & Instrumentation (planned)
 - Rapid Validation / Usability Testing
+- [Novus + LangSmith STUDY](../../../ai-capability-os/sources/pendo/novus-langsmith.md)
