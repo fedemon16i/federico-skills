@@ -4,7 +4,7 @@ Master registry of curated domain knowledge.
 
 **Update this file whenever knowledge is added, updated, or reclassified.**
 
-Last updated: 2026-08-23
+Last updated: 2026-08-29
 
 ---
 
@@ -46,6 +46,7 @@ Last updated: 2026-08-23
 | Complex Forms & Drop-offs | **Done** | High | [→](ui-patterns/complex-forms-and-dropoffs.md) |
 | Onboarding & Activation | **Done** | High | [→](ui-patterns/onboarding-and-activation.md) |
 | Anti-Slop Skills & Motion Tools | **Done** | High | [→](ui-patterns/anti-slop-and-motion-tools.md) |
+| Product UI Animation Showcase | **Done** | High | [→](ui-patterns/product-ui-animation-showcase.md) |
 | Data Tables, Users, Roles & RBAC | **Done** | High | [→](ui-patterns/data-tables-and-rbac.md) |
 | Domain Mobile & Ecommerce | **Done** | High | [→](ui-patterns/domain-mobile-and-commerce.md) |
 | Reference Products Best-in-Class | **Done** | High | [→](ui-patterns/reference-products-best-in-class.md) |
@@ -61,6 +62,7 @@ Last updated: 2026-08-23
 | Case Study Structure 2026 | **Done** | High | [→](portfolio-narrative/case-study-structure-2026.md) |
 | Confidential & NDA Cases | **Done** | High | [→](portfolio-narrative/confidential-and-nda-cases.md) |
 | Interview Project Narrative (Verbal) | **Done** | High | [→](portfolio-narrative/interview-project-narrative.md) |
+| Animated Showcase Storytelling | **Done** | High | [→](portfolio-narrative/animated-showcase-storytelling.md) |
 
 ## Emerging & Agentic
 
