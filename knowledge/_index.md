@@ -4,7 +4,7 @@ Master registry of curated domain knowledge.
 
 **Update this file whenever knowledge is added, updated, or reclassified.**
 
-Last updated: 2026-08-29
+Last updated: 2026-08-30 (added: light-dark visibility, QA web, DS documentation)
 
 ---
 
@@ -51,6 +51,9 @@ Last updated: 2026-08-29
 | Domain Mobile & Ecommerce | **Done** | High | [→](ui-patterns/domain-mobile-and-commerce.md) |
 | Reference Products Best-in-Class | **Done** | High | [→](ui-patterns/reference-products-best-in-class.md) |
 | Portfolio OS Shell Patterns | **Done** | High | [→](ui-patterns/portfolio-os-shell-patterns.md) |
+| Light/Dark Mode Visibility & Contrast | **Done** | High | [→](ui-patterns/light-dark-mode-visibility.md) |
+| QA for Web — Responsive, A11y, Visual Regression | **Done** | High | [→](ui-patterns/qa-web-responsive.md) |
+| Design System Documentation Best Practices | **Done** | High | [→](design-systems/design-system-documentation.md) |
 | Design System Discipline | In `/skills` | Medium | [→](../skills/design-system-discipline.md) |
 | Motion & Micro-interactions | Planned | Low | (see anti-slop-and-motion-tools) |
 
